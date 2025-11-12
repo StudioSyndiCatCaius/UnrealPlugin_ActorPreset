@@ -25,5 +25,8 @@
 			"Type": "Editor",
 			"LoadingPhase": "Default"
 		}
+	],
+	"Plugins": [
+		{ "Name": "PCG", "Enabled": true }
 	]
 }
