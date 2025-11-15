@@ -9,6 +9,7 @@
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
+	"EngineVersion": "5.5",
 	"SupportURL": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
@@ -18,12 +19,20 @@
 		{
 			"Name": "ActorPresetRuntimeModule",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"PlatformAllowList":[
+				"Win64",
+				"Mac"
+			],
 		},
 		{
 			"Name": "ActorPresetEditorModule",
 			"Type": "Editor",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"PlatformAllowList":[
+				"Win64",
+				"Mac"
+			],
 		}
 	],
 	"Plugins": [

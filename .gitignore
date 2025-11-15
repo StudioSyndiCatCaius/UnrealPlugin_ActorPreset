@@ -74,3 +74,4 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 /PLUGIN/Binaries
 /PLUGIN/Intermediate
+/versions

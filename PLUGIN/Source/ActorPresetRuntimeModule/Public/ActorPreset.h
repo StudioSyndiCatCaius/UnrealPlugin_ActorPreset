@@ -1,14 +1,13 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Caius Nelson @ Studio Syndicat - Copyright 2025. All Rights Reserved. Relased under MIT liscence.
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "GameFramework/Actor.h"
 #include "ActorPreset.generated.h"
 
-/**
- * 
- */
+
 UCLASS(BlueprintType)
 class ACTORPRESETRUNTIMEMODULE_API UActorPreset : public UObject
 {
